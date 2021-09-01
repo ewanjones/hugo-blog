@@ -2,3 +2,18 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Ewan Jones'
 theme = "dev"
+
+[params]
+  favicon = ""
+  site_logo = ""
+  description = "A London-based developer, (soon to be) pilot and music nerd"
+
+  # Links in header and footer
+  twitter = "https://twitter.com/ewanglynjones"
+  instagram = "https://www.instagram.com/joneseg/"
+  github = "https://github.com/ewanjones/"
+  linkedin = "https://www.linkedin.com/in/ewan-jones/"
+
+  background_color_class = "bg-black"
+  featured_image = "/images/plane-background.jpg"
+  recent_posts_number = 2
