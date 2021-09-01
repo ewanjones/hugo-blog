@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Ewan Jones'
 theme = "dev"
 
+sectionPagesMenu = "main"
+
 [params]
   favicon = ""
   site_logo = ""
