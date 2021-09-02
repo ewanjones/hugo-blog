@@ -1,0 +1,21 @@
+.lighten-on-hover:hover {
+    animation: lighten 0.5s ease-out;
+    animation-fill-mode: forwards;
+}
+
+.lighten-on-hover {
+    animation: darken 0.5s ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes lighten {
+    0% { opacity: 1; }
+
+    100% { opacity: 0.9; }
+}
+
+@keyframes darken {
+    0% { opacity: 0.9; }
+
+    100% { opacity: 1; }
+}

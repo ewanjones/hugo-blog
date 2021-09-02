@@ -2,7 +2,7 @@
 {{ if $featured_image }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
   {{ $featured_image := (trim $featured_image "/") | absURL }}
-  <header class="cover bg-center" style="background-image: url('{{ $featured_image }}');">
+  <header class="cover bg-center lighten-on-hover" style="background-image: url('{{ $featured_image }}');">
     <div class="{{ .Site.Params.cover_dimming_class | default "bg-black-60" }}">
       {{ partial "site-navigation.html" .}}
       <div class="tc-l pv4 pv6-l ph3 ph4-ns">
@@ -10,9 +10,11 @@
           {{ .Title | default .Site.Title }}
         </h1>
         {{ with .Site.Params.description }}
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
-            {{ . }}
-          </h2>
+          {{ if eq $.Kind "home" }}
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
+              {{ . }}
+            </h2>
+          {{ end }}
         {{ end }}
       </div>
     </div>
