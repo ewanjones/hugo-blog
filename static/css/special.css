@@ -1,3 +1,24 @@
+
+/* Blog post */
+
+
+.tag {
+    padding: 13px 10px;
+    color: white;
+    border-radius: 7px;
+    background-color: #096926e8;
+}
+
+blockquote {
+    background-color: #cde4db;
+    padding: 20px;
+    opacity: 0.7;
+}
+
+
+/*  Main background lighten effects */
+
+
 .lighten-on-hover:hover {
     animation: lighten 0.5s ease-out;
     animation-fill-mode: forwards;
