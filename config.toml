@@ -5,6 +5,7 @@ theme = "dev"
 
 # Makes the menus appear based on the directories in `content`
 sectionPagesMenu = "main"
+summaryLength = 50
 
 [params]
   favicon = ""
