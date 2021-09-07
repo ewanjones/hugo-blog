@@ -1,4 +1,33 @@
 
+/* Contact form */
+
+
+.contact-form {
+    padding: 70px 40px;
+    background-color: #cde4db;
+    border-radius: 10px;
+}
+
+.field {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.field > label > input, .field > label > textarea {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.field > button {
+    padding: 7px 15px;
+    border-radius: 7px;
+}
+
+
+
 /* Blog post */
 
 
