@@ -58,5 +58,7 @@
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+
+    {{ block "extrascripts" . }}{{ end }}
   </body>
 </html>
