@@ -22,7 +22,7 @@
 {{/* Try loading the main.js  */}}
 
 {{ define "extrascripts" }}
-    {{ with .Resources.GetMatch "main.js" }}
+    {{ with .Resources.GetMatch "main.js" | babel | js.Build }}
         <script>{{ .Content | safeJS }}</script>
     {{ end }}
 {{ end }}

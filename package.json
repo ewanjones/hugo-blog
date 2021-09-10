@@ -1,24 +1,47 @@
 {
-  "name": "hugo-blog",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ewanjones/hugo-blog/issues"
   },
+  "comments": {
+    "dependencies": {
+      "chart.js": "project"
+    },
+    "devDependencies": {
+      "@babel/cli": "project",
+      "@babel/core": "project",
+      "@babel/preset-env": "project",
+      "auto-changelog": "dev",
+      "cssnano": "dev",
+      "postcss-cli": "dev",
+      "postcss-cssnext": "dev",
+      "tachyons": "dev"
+    }
+  },
+  "dependencies": {
+    "chart.js": "^3.5.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "auto-changelog": "^1.16.1",
+    "cssnano": "^3.10.0",
+    "postcss-cli": "^7.1.0",
+    "postcss-cssnext": "^2.10.0",
+    "tachyons": "^4.9.1"
+  },
+  "homepage": "https://github.com/ewanjones/hugo-blog#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "hugo-blog",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ewanjones/hugo-blog.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ewanjones/hugo-blog/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/ewanjones/hugo-blog#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.15.4",
-    "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6"
-  }
+  "version": "1.0.0"
 }
