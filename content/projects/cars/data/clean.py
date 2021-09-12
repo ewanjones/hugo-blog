@@ -1,13 +1,11 @@
 """
 Clean the csv files and produce a JSON file for use in javascript.
-
-I'd rather not introduce any new python dependencies (like pandas) so attempting to do this
-natively.
 """
 
 import csv
 import os
 import json
+import pandas as pd
 
 
 DATA_DIR = "raw/"
@@ -21,10 +19,10 @@ INTEGER_FIELDS = ["tax", "price", "mileage", "year"]
 
 
 def process():
-    data = []
+    data = pd.DataFrame()
 
     for filename in os.listdir(DATA_DIR):
-        with open(f"raw/{filename}", "r") as f:
+        df = pd.from_csv(f"raw/{filename}")
             reader = csv.DictReader(f)
             for row in reader:
                 item = row

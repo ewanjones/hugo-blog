@@ -22,6 +22,10 @@
 {{/* Try loading the main.js  */}}
 
 {{ define "extrascripts" }}
+    {{ with .Resources.GetMatch "data/*.json" }}
+        <script>var cars = {{ .Content }}</script>
+    {{ end }}
+
     {{ with .Resources.GetMatch "main.js" | babel | js.Build }}
         <script>{{ .Content | safeJS }}</script>
     {{ end }}
