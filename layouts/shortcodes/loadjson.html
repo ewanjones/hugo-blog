@@ -1,0 +1,5 @@
+{{ $varName := $.Get 0 }}
+
+{{ with $.Page.Resources.GetMatch (.Get 0) }}
+    <script>var {{ safeJS (printf ($.Get 1)) }} = {{ .Content }}</script>
+{{ end }}

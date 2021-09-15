@@ -1,18 +1,24 @@
 ---
-title: "Cars"
+title: "Second hand cars"
 date: 2021-08-30T14:06:41+01:00
 ---
 
 <div>
 
   <blockquote>
-    This is an experimental page playing with piping statics into webpages. This page uses
+    This is an experimental page playing with piping statics into webpages using Hugo. This page uses
     charts.js written in ES6 javascript (which wouldn't work in a browser) but is transformed before
-    rendering.
-    <br>
-    Also, the data comes from a JSON file in the data directory. 
-    <br>
-    See the source code here
+    rendering. Also, the data comes from a JSON file in the data directory and it fetched in the 
+    template using a shortcode. 
+
+    <br><br>
+
+    See the source code {{< staticlink "main.js" "here" >}}.This is actually piped into my content
+    file with a shortcode, as getting resources is not available in content files, only templates.
+
+    <br><br>
+
+    I promise there'll be more exciting stuff here soon.
   </blockquote>
 
   <p>
@@ -33,4 +39,6 @@ date: 2021-08-30T14:06:41+01:00
     dataset from Kaggle
   </p>
 
+
+  {{< loadjson "data/cars.json" "cars" >}}
 </div>
