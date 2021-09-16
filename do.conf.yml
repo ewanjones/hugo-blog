@@ -6,7 +6,7 @@ domains:
   type: PRIMARY
   zone: ewanjones.dev
 name: hugo-blog
-region: ams
+region: lon1
 static_sites:
 - name: hugo-blog
   dockerfile_path: Dockerfile
