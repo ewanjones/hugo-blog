@@ -1,0 +1,19 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+domains:
+- domain: ewanjones.dev
+  type: PRIMARY
+  zone: ewanjones.dev
+name: hugo-blog
+region: ams
+static_sites:
+- name: hugo-blog
+  dockerfile_path: Dockerfile
+  output_dir: /dist/public
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: ewanjones/hugo-blog
+  routes:
+  - path: /
