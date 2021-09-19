@@ -1,6 +1,8 @@
 ---
 title: "Deploying Hugo site with Javascript to Digital Ocean 'Apps'"
 date: 2021-09-10T22:00:00
+categories: [Tech]
+
 ---
 
 I recently embarked on building this site in Hugo for its simplicity, ease of use and it's excellent range of features for extension. I really want a portfolio I can use to play with new technologies and actually make something people can play with. I really like  Digital Ocean in general and noticed their new 'Apps' feature supported a Hugo site (which was recommended to me by a colleage). Apps is  a fully managed solution for deploying apps (for free with the starter plan) and I decided I'd give it a whirl.

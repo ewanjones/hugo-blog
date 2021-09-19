@@ -31,3 +31,6 @@ summaryLength = 50
 
   # Post page
   show_reading_time = true
+
+[taxonomies]
+  category = "categories"

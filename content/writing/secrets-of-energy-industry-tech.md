@@ -1,6 +1,7 @@
 ---
 title: "Secrets of the energy industry tech - faster switching"
 date: 2021-09-06T14:06:41+01:00
+categories: [Tech]
 
 summary: "
     Big things are coming in the energy industry... how the digitisation of the switching process will bring real benefits to the customer.

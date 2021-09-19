@@ -28,6 +28,16 @@
 
 
 
+/* List page */
+
+.pill {
+    color: white;
+    padding: 2px 12px;
+    width: auto;
+    border-radius: 7px;
+    background-color: #096926e8;
+}
+
 /* Blog post */
 
 
