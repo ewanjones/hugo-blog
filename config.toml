@@ -14,7 +14,7 @@ summaryLength = 50
   description = "A London-based developer, pilot and music enthusiast"
 
   # Tell the theme which sections are considered the main ones (e.g. should show recent posts)
-  mainSections = ["tech"]
+  mainSections = ["writing"]
   recentPostsNumber = 3
 
   custom_css = ["css/special.css"]
