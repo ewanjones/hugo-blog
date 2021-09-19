@@ -7,10 +7,15 @@ theme = "dev"
 sectionPagesMenu = "main"
 summaryLength = 50
 
+
 [params]
   favicon = ""
   site_logo = ""
   description = "A London-based developer, pilot and music enthusiast"
+
+  # Tell the theme which sections are considered the main ones (e.g. should show recent posts)
+  mainSections = ["tech"]
+  recentPostsNumber = 3
 
   custom_css = ["css/special.css"]
 
