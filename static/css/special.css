@@ -1,3 +1,10 @@
+:root {
+  --dark-gray: #333333;
+  --orange: #ffb66c;
+  --dark-green: #096926e8;
+  --light-green #cde4db
+}
+
 
 /* Contact form */
 
@@ -36,7 +43,13 @@
     width: auto;
     border-radius: 7px;
     background-color: #096926e8;
+    text-decoration: none;
 }
+
+.pill-tech { background-color: var(--dark-green); }
+
+.pill-energy{ background-color: var(--orange); color: var(--dark-gray)}
+
 
 /* Blog post */
 
