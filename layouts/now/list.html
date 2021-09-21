@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <article class="pa3 pa4-ns nested-copy-line-height nested-img">
+    {{ with .Content  }}
+      <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+        {{- . -}}
+      </section>
+    {{ end }}
+    <section class="flex-ns flex-wrap justify-around mt5">
+      {{ range .Paginator.Pages }}
+        <div class="relative w-100 w-60-l">
+          {{- partial "entry.html" . -}}
+        </div>
+      {{ end }}
+    </section>
+    {{- template "_internal/pagination.html" . -}}
+  </article>
+
+
+  <hr>
+  <br>
+  <p class="tc">
+    {{ "This page is inspired by [David Winterbottoms’s Now Page](https://codeinthehole.com/now/), which will lead you down a rabbit hole of other ['Now pages'](https://nownownow.com/about)." | markdownify }}
+  </p>
+{{ end }}
