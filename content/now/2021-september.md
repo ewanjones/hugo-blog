@@ -20,7 +20,7 @@ date: 2021-09-01T10:00:00+01:00
 *Eating*: 
 
 * I just got the dishoom cookbook and will attempt to recreate their ruby (vegan) chicken.
-* Still going strong with my sourdough! If you want a bit culture and advice on getting started, let me know
+* Still going strong with my sourdough! If you want a bit of culture and advice on getting started, let me know
 
 *Watching*: 
 * Money Heist
