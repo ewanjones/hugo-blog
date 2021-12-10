@@ -2,7 +2,8 @@
   --dark-gray: #333333;
   --orange: #ffb66c;
   --dark-green: #096926e8;
-  --light-green #cde4db
+  --light-green: #cde4db;
+  --dark-blue: #2a6ee9e8;
 }
 
 
@@ -47,8 +48,8 @@
 }
 
 .pill-tech { background-color: var(--dark-green); }
-
-.pill-energy{ background-color: var(--orange); color: var(--dark-gray)}
+.pill-energy{ background-color: var(--orange); color: var(--dark-gray) }
+.pill-flying{ background-color: var(--dark-blue) }
 
 
 /* Blog post */
