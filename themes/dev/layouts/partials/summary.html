@@ -1,7 +1,7 @@
 <div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     {{ range .Page.Params.categories }}
-    <a class="f6 pill pill-{{ lower . }}" href="/categories/{{ lower . }}">{{ humanize . }}</a>
+      <a class="f6 pill pill-{{ lower . }}" href="/categories/{{ lower . }}">{{ humanize . }}</a>
     {{ end }}
     <h1 class="f3 near-black">
       <a href="{{ .RelPermalink }}" class="link black dim">
