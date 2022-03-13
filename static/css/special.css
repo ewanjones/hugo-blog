@@ -2,7 +2,9 @@
   --dark-gray: #333333;
   --orange: #ffb66c;
   --dark-green: #096926e8;
-  --light-green #cde4db
+  --light-green #cde4db;
+  --blue: #2f57c9e8;
+  --white: white;
 }
 
 
@@ -49,6 +51,8 @@
 .pill-tech { background-color: var(--dark-green); }
 
 .pill-energy{ background-color: var(--orange); color: var(--dark-gray)}
+
+.pill-productivity{ background-color: var(--blue); color: var(--white)}
 
 
 /* Blog post */
