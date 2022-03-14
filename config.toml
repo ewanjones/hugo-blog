@@ -39,3 +39,7 @@ summaryLength = 50
 
 [taxonomies]
   category = "categories"
+
+[markup.goldmark.renderer]
+  # Allow raw HTML in markdown files
+  unsafe = true
