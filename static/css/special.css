@@ -8,6 +8,17 @@
 }
 
 
+/* Code snippets */
+
+/* single line codes */
+code:not(pre code) {
+    font-family: courier new;
+    color: black;
+    background-color: lightgray;
+    padding: 3px 6px;
+}
+
+
 /* Contact form */
 
 
