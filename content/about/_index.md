@@ -9,12 +9,19 @@ resources:
 ---
 
 
-![Me](me.jpg)
+<img 
+    src="me.jpg" 
+    alt="Me" 
+    style="width:40%; margin-left: auto; margin-right: auto;"
+/>
 
+<br> <hr> <br>
 
 I'm a full-stack developer able to build web applications from scratch. I love solving complex problems in innovative ways. I want to use my skills to make the world a better place.
 
 I first picked up coding during my Biomedical Sciences degree studying bioinformatics, and have been addicted to making cool things that people can use ever since.
+
+<br> <hr>
 
 
 # Skills and Languages
