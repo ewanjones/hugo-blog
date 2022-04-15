@@ -20,7 +20,7 @@ summaryLength = 50
   custom_css = ["css/special.css"]
 
   # Links in header and footer
-  twitter = "https://twitter.com/ewanglynjones"
+  twitter = "https://twitter.com/ewanjonesdev"
   instagram = "https://www.instagram.com/joneseg/"
   github = "https://github.com/ewanjones/"
   linkedin = "https://www.linkedin.com/in/ewan-jones/"
